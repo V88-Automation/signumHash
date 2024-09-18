@@ -1,0 +1,23 @@
+[
+  {
+    "kind": "column",
+    "name": "signumHash",
+    "description": "Performs a signum hash on a concatenated field list",
+    "author": "V88",
+    "params": [
+      {
+		 	  "name": "message",
+		 	  "displayName": "Message",
+		    "type": "string"
+		  },
+      {
+		 	  "name": "key",
+		 	  "displayName": "Key",
+		    "type": "string"       
+      }
+    ],
+     "result": {
+      "type": "string"
+    }
+  }
+]
